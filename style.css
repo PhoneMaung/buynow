@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #0d1b2a;
+}
+.title-font {
+  font-family: "Afacad", sans-serif;
+  font-size: 1.8rem;
+}
+.title{
+  font-family: "Afacad", sans-serif;
+  font-size: 3rem;
+}
+.card {
+  border-radius: 12px !important;
+  min-height: 640px;
+}
+.card-bg {
+  background-color: #778da9;
+}
+img {
+  border-radius: 8px;
+  height: 300px;
+}
+.card-body {
+  padding: 0;
+}
+.card-title {
+  font-family: "Afacad", sans-serif;
+}
+.card-title,
+.card-text {
+  text-align: left;
+  padding: 20px;
+  margin: 0;
+}
+.btn-bg {
+  background-color: #1b263b;
+  color: white;
+  transition: 0.3s;
+}
+.btn-bg:hover {
+  background-color: #e0e1dd;
+  color: black;
+}
+.pagination > .disabled > .page-link {
+  color: gray !important;
+  background-color: rgb(50, 50, 50) !important;
+  border-color: rgb(50, 50, 50) !important;
+}
+.pagination > li > a {
+  color: white;
+  background-color: gray;
+  border-color: gray;
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.pagination > .active > a {
+  color: white;
+  background-color: black !important;
+  border: solid 1px black !important;
+}
+.pagination > .active > a:hover {
+  color: black;
+  background-color: white !important;
+  border: solid 1px white !important;
+}
